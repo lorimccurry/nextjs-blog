@@ -42,6 +42,7 @@ export default function Home({allPostsData}) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Purr and code</p>
+        <small className={utilStyles.lightText}><i>Everyday...</i></small>
         <p>
           (Seeing what the{' '}
           <a href="https://nextjs.org/learn">Next.js</a>-s is about.)
